@@ -27,8 +27,8 @@
 <footer class="hint" style="margin:24px 0">Dados privados por usuário. Confira os valores e as condições legais aplicáveis antes de formalizar empréstimos.</footer></main></div>
 <script>
 /* CONFIGURE estes dois valores com os dados do seu projeto Supabase. Use somente a chave publicável/anon, nunca service_role. */
-const SUPABASE_URL = "COLE_AQUI_A_URL_DO_SUPABASE";
-const SUPABASE_ANON_KEY = "COLE_AQUI_A_CHAVE_PUBLICAVEL_DO_SUPABASE";
+const SUPABASE_URL = "https://bpbesejejelmpothwoan.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_fKsn-0GXxF81xptqk6rnvA_7tjJjLN_";
 let db=null, session=null, clients=[], loans=[], installments=[], payments=[], currentPage="dashboard";
 const $=id=>document.getElementById(id);
 const money=n=>Number(n||0).toLocaleString("pt-BR",{style:"currency",currency:"BRL"});
